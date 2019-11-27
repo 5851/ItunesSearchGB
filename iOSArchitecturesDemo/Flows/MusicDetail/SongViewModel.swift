@@ -1,22 +1,6 @@
 import Foundation
 import AVKit
 
-protocol SongViewProtocol {
-    var songImage: UIImageView { get set }
-    var currentTimeSlider: UISlider { get set }
-    var currentTimeLabel: UILabel { get set }
-    var durationLabel: UILabel { get set }
-    var songTitle: UILabel { get set }
-    var songArtist: UILabel { get set }
-    var buttonBack: UIButton { get set }
-    var playPauseButton: UIButton { get set }
-    var buttonForward: UIButton { get set }
-    var imageViewVolumeBack: UIImageView { get set }
-    var imageViewVolumeForward: UIImageView { get set }
-    var volumeSlider: UISlider { get set }
-}
-
-
 class SongViewModel {
     
     let song: ITunesSong
